@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="library"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/86133/CLionProjects/library/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/86133/CLionProjects/library/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="library">
+				<Option output="C:/Users/86133/CLionProjects/library/cmake-build-debug/library.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/86133/CLionProjects/library/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library"/>
+					<CompileFile command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="library/fast">
+				<Option output="C:/Users/86133/CLionProjects/library/cmake-build-debug/library.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/86133/CLionProjects/library/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library/fast"/>
+					<CompileFile command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/86133/CLionProjects/library/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/codeblocks17.12/codeblocks 17.12/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86133/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/book.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/book.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/lbr.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/lbr.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/user.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/core/user.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/main.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/main.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/hash.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/hash.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/hash_map.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/hash_map.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/list.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/list_book.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/list_user.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/my_math.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/my_math.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/my_string.c">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/util/my_string.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="C:/Users/86133/CLionProjects/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
