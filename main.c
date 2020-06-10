@@ -9,7 +9,7 @@
 
 Library* lbr = NULL;
 User* current_user = NULL;
-
+//
 
 void initialize(){
     lbr = create_library();
