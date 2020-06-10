@@ -1,4 +1,0 @@
-ToolSet: 3.20 (local)@D:\codeblocks17.12\codeblocks 17.12\MinGW
-Options: 
-
-Options:
