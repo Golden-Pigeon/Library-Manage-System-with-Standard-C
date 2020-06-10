@@ -13,7 +13,7 @@ User* current_user = NULL;
 
 void initialize(){
     lbr = create_library();
-    add_books(lbr, creat_book("C_and_Pointer", "1-1234-123-11"), 1000);
+    add_books(lbr, creat_book("C_and_Pointer", "1-1234-123-11"), 10);
     add_books(lbr, creat_book("Half_Life_3", "1-4321-123-11"), 20);
     add_books(lbr, creat_book("C_Primer_Plus", "1-1234-321-11"), 20);
     add_books(lbr, creat_book("Thinking_in_C++", "1-1234-123-22"), 20);

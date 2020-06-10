@@ -21,7 +21,7 @@ char* copy(char* str){
 char* get_password(int limit){
     char* pw = (char*)malloc(limit + 1);
     memset(pw, 0, limit + 1);
-    scanf("%s", pw);
+ //   scanf("%s", pw);
    // return pw;
  //   strcpy(pw, "******");
  //   return pw;
