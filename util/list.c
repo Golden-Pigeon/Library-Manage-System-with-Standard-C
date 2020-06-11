@@ -30,13 +30,7 @@ BookList* create_book_list(){
 }
 
 void list_add_book(BookList* bl, Book* book, char* book_code){
-    if(bl->head == NULL){
-        bl->head = create_book_node(book, book_code, NULL);
-    }
-    else{
-        BookNode* n = create_book_node(book, book_code, bl->head);
-        bl->head = n;
-    }
+    bl->head = create_book_node(book, book_code, bl->head);
 }
 
 char* list_book_change(BookList* bl, Book* ori, Book* obj, char* book_code){
@@ -151,13 +145,7 @@ UserList* create_user_list(){
 }
 
 void list_add_user(UserList* ul, User* user){
-    if(ul->head == NULL){
-        ul->head = create_user_node(user, NULL);
-    }
-    else{
-        UserNode* n = create_user_node(user, ul->head);
-        ul->head = n;
-    }
+    ul->head = create_user_node(user, ul->head);
 }
 
 bool list_user_change(UserList* ul, User* ori, User* obj){
